@@ -287,6 +287,44 @@ section {
   height: 260px;
 }
 
+/* Listen offline spotlight */
+.listen-spotlight {
+  background:
+    linear-gradient(135deg, #3d1524 0%, var(--color-primary) 55%, #8a3a52 100%);
+  color: #fff;
+  padding: 88px 0;
+}
+
+.listen-spotlight .eyebrow--also {
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.28);
+  margin-bottom: 16px;
+}
+
+.listen-spotlight h2 {
+  font-size: clamp(1.6rem, 3vw, 2.1rem);
+  margin: 0 0 16px;
+  letter-spacing: -0.01em;
+  color: #fff;
+}
+
+.listen-spotlight .split-text p {
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+.listen-spotlight .placeholder {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.28);
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.listen-spotlight .placeholder .label {
+  color: #fff;
+}
+
 /* Benefits grid */
 .benefits-grid {
   display: grid;
