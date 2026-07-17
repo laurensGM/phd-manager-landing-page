@@ -60,10 +60,19 @@ header.nav {
 }
 
 .logo {
-  font-weight: 700;
-  font-size: 1.15rem;
-  color: var(--color-primary);
-  letter-spacing: -0.01em;
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.logo-img {
+  height: 36px;
+  width: auto;
+  display: block;
+}
+
+.logo-img--footer {
+  height: 40px;
 }
 
 .nav-links {
@@ -395,6 +404,11 @@ footer {
   flex-wrap: wrap;
   gap: 32px;
   margin-bottom: 32px;
+}
+
+.footer-brand {
+  flex: 1 1 160px;
+  min-width: 140px;
 }
 
 .footer-col h4 {

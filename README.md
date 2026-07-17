@@ -25,6 +25,9 @@ Static landing page (HTML / CSS / JS):
 | `index.html` | Page structure and copy |
 | `css/styles.css` | Styles |
 | `js/main.js` | Scripts (placeholder for now) |
+| `assets/img/` | Logo, screenshots, and other images |
+
+Place the logo at `assets/img/logo.png` (header and footer both reference this path). Put product screenshots in the same folder when ready.
 
 ## Preview locally
 
