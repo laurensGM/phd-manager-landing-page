@@ -297,7 +297,26 @@ section {
 }
 
 .step-visual {
+  min-height: 0;
+}
+
+.placeholder.step-visual {
   height: 260px;
+}
+
+.step-visual:not(.placeholder) {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow:
+    0 4px 6px rgba(31, 26, 28, 0.06),
+    0 14px 32px rgba(113, 32, 56, 0.12);
+  background: var(--color-bg-alt);
+}
+
+.step-img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 /* Listen offline spotlight */
