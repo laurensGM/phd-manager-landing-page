@@ -21,7 +21,7 @@
         <a href="#supervisors">For supervisors</a>
         <a href="#universities">For universities</a>
       </nav>
-      <a href="mailto:goormachtigh.laurens@gmail.com?subject=Early%20access%20to%20PhD%20Manager&amp;body=Hi%2C%0A%0AI%27d%20like%20early%20access%20to%20PhD%20Manager.%0A%0AName%3A%20%0ARole%20(PhD%20student%20%2F%20supervisor)%3A%20%0AInstitution%3A%20%0A" class="btn btn-primary">Get early access</a>
+      <a href="#cta" class="btn btn-primary" data-subject="PhD Manager early access">Get early access</a>
     </div>
   </header>
 
@@ -32,7 +32,7 @@
       <h1>Stop re-reading papers to remember what you found.</h1>
       <p class="subhead">PhD Manager turns every highlight into a structured claim — so your literature review becomes the first draft of your argument, not a pile to revisit.</p>
       <div class="hero-ctas">
-        <a href="mailto:goormachtigh.laurens@gmail.com?subject=Early%20access%20to%20PhD%20Manager&amp;body=Hi%2C%0A%0AI%27d%20like%20early%20access%20to%20PhD%20Manager.%0A%0AName%3A%20%0ARole%20(PhD%20student%20%2F%20supervisor)%3A%20%0AInstitution%3A%20%0A" class="btn btn-primary">Get early access</a>
+        <a href="#cta" class="btn btn-primary" data-subject="PhD Manager early access">Get early access</a>
         <a href="#how-it-works" class="btn btn-secondary">See how it works</a>
       </div>
       <div class="hero-visual">
@@ -203,12 +203,23 @@
     </div>
   </section>
 
-  <!-- TAGLINE / CLOSING CTA -->
+  <!-- TAGLINE / EARLY ACCESS FORM -->
   <section class="tagline-band" id="cta">
     <div class="container">
       <span class="eyebrow">PhD Manager</span>
       <h2>Organizing research, one snippet at a time.</h2>
-      <a href="mailto:goormachtigh.laurens@gmail.com?subject=Early%20access%20to%20PhD%20Manager&amp;body=Hi%2C%0A%0AI%27d%20like%20early%20access%20to%20PhD%20Manager.%0A%0AName%3A%20%0ARole%20(PhD%20student%20%2F%20supervisor)%3A%20%0AInstitution%3A%20%0A" class="btn btn-primary">Get early access</a>
+      <p class="tagline-lead">Request early access and we’ll get back to you.</p>
+      <form id="contact-form" class="access-form" action="https://formspree.io/f/xjgeyvge" method="POST">
+        <input type="hidden" name="_subject" value="PhD Manager early access">
+        <input type="hidden" name="source" value="PhD Manager landing page">
+        <input type="text" name="name" placeholder="Your name" aria-label="Your name" autocomplete="name" required>
+        <input type="email" name="email" placeholder="Your email" aria-label="Your email" autocomplete="email" required>
+        <textarea name="message" rows="5" placeholder="Your message" aria-label="Your message" required></textarea>
+        <p class="form-status form-status--loading" hidden>Sending…</p>
+        <p class="form-status form-status--error" hidden></p>
+        <p class="form-status form-status--sent" hidden>Your message has been sent. Thank you!</p>
+        <button type="submit" class="btn btn-primary">Get early access</button>
+      </form>
     </div>
   </section>
 
@@ -217,7 +228,7 @@
     <div class="container">
       <h3>Bringing PhD Manager to your doctoral program?</h3>
       <p>We're piloting institutional partnerships with business schools and universities, starting with Stellenbosch Business School.</p>
-      <a href="mailto:goormachtigh.laurens@gmail.com?subject=PhD%20Manager%20for%20our%20doctoral%20program&amp;body=Hi%2C%0A%0AI%27d%20like%20to%20talk%20about%20bringing%20PhD%20Manager%20to%20our%20doctoral%20program.%0A%0AName%3A%20%0AInstitution%3A%20%0A" class="btn btn-secondary">Talk to us about your program</a>
+      <a href="#cta" class="btn btn-secondary" data-subject="PhD Manager for our doctoral program" data-message="I'd like to talk about bringing PhD Manager to our doctoral program.">Talk to us about your program</a>
     </div>
   </section>
 
